@@ -80,6 +80,13 @@ summary,
   font-family: 'Open Sans', sans-serif;
 }
 
+.btn {
+  border-radius: 8px;
+  border-style: none;
+  padding: 4px 8px;
+  font-weight: bold;
+}
+
 main {
   display: flex;
   height: 100vh;
@@ -110,4 +117,7 @@ input#location::placeholder {
   height: 400px;
   width: 800px;
   border: 1px solid black;
+}
+
+.btn.submit-location {
 }
