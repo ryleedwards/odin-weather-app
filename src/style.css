@@ -97,27 +97,25 @@ main {
 
 .form-location {
   margin: 64px 0px 32px 0px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.label-location-input {
+  font-size: 1.5rem;
 }
 
 input#location {
   border-radius: 8px;
-  border-style: none;
-  background-color: darkblue;
   padding: 4px 8px;
-  color: white;
   text-align: center;
   width: 256px;
-}
-
-input#location::placeholder {
-  color: white;
 }
 
 .container-results {
   height: 400px;
   width: 800px;
   border: 1px solid black;
-}
-
-.btn.submit-location {
 }
