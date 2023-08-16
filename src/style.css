@@ -108,7 +108,7 @@ main {
   align-items: center;
 }
 
-.location-validation-error {
+.location-validation-warning {
   background-color: var(--warning-background);
   color: var(--warning-color);
   padding: 12px;
