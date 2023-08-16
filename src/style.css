@@ -1,3 +1,8 @@
+:root {
+  --warning-color: #856404;
+  --warning-background: #fff3cd;
+}
+
 /* BEGIN BOILERPLATE */
 *,
 *::before,
@@ -99,8 +104,19 @@ main {
   margin: 64px 0px 32px 0px;
   width: 800px;
   display: flex;
-  justify-content: center;
-  gap: 8px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location-validation-error {
+  background-color: var(--warning-background);
+  color: var(--warning-color);
+  padding: 12px;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  border-radius: 2px;
+  width: 50%;
+  text-align: center;
 }
 
 .label-location-input {
