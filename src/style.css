@@ -148,3 +148,35 @@ input#location {
 p.current-temperature {
   font-size: 4rem;
 }
+
+p.city {
+  font-size: 3rem;
+}
+
+.container-forecast {
+  width: 100%;
+  height: 50%;
+  background-color: lightskyblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast-day {
+  height: 100%;
+  padding: 0 48px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p.day-name {
+  justify-self: flex-start;
+  font-size: 2rem;
+}
+
+.forecast-temps {
+  display: flex;
+  font-size: 1.5rem;
+}
