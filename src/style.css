@@ -135,3 +135,16 @@ input#location {
   width: 800px;
   border: 1px solid black;
 }
+
+.container-current {
+  display: flex;
+  flex-direction: column;
+  background-color: lightcoral;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+p.current-temperature {
+  font-size: 4rem;
+}
