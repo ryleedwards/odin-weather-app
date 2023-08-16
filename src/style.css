@@ -79,3 +79,35 @@ summary,
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
+
+main {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-location {
+  margin: 64px 0px 32px 0px;
+}
+
+input#location {
+  border-radius: 8px;
+  border-style: none;
+  background-color: darkblue;
+  padding: 4px 8px;
+  color: white;
+  text-align: center;
+  width: 256px;
+}
+
+input#location::placeholder {
+  color: white;
+}
+
+.container-results {
+  height: 400px;
+  width: 800px;
+  border: 1px solid black;
+}
